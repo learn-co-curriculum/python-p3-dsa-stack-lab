@@ -2,7 +2,7 @@
 
 ## Learning Goals
 
-- Implement a `Stack` using a list as the underlying data structure
+- Implement a `Stack` using a list as the underlying data structure.
 
 ***
 
@@ -10,7 +10,8 @@
 
 - **Sequence**: a data structure in which data is stored and accessed in a
 specific order.
-- **Stack** is a linear data structure that follows the principle of Last In First Out (LIFO)
+- **Stack** is a linear data structure that follows the principle of Last In
+First Out (LIFO)
 - **Index**: the location, represented by an integer, of an element in a
 sequence.
 - **Iterable**: able to be broken down into smaller parts of equal size that
@@ -89,6 +90,8 @@ better choice is a `LinkedList`, because it uses a Dictionary as _its_ underlyin
 structure and Dictionaries do not need to be stored in a continuous block of memory.
 The `LinkedList` is the next data structure we'll learn about. Before we get to
 that, however, let's get a little practice using `Stack`s.
+
+***
 
 ## Resources
 
