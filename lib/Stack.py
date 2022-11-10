@@ -3,7 +3,6 @@ class Stack:
     def __init__(self, items = [], limit = 100):
         pass
 
-
     def isEmpty(self):
         pass
 
@@ -14,8 +13,8 @@ class Stack:
         pass
 
     def peek(self):
-	    pass
-
+        pass
+    
     def size(self):
         pass
 
