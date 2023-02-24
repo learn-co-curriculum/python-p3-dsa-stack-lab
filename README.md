@@ -58,7 +58,8 @@ below. There are tests for these in the `testing/stack_test.py` file; uncomment 
 - `Stack empty()`: returns true if the `Stack` is empty; false otherwise
 - `Stack full()`: returns true if the `Stack` is full; false otherwise
 - `Stack search(value)`: returns the distance between the top of the stack and the
-  target element if it's present; -1 otherwise
+  target element if it's present; -1 otherwise. If the target element is at the top of the stack
+  your code should return 0.
 
 After you've made these changes, you might want to take another look through
 your code and see if there's any refactoring you can do.
@@ -69,7 +70,7 @@ your code and see if there's any refactoring you can do.
 
 In this lesson, we got some practice building a data structure from scratch by
 implementing a `Stack` class. Recall that the runtime of our data structure will
-depend on what data structure it uses under the hood. For this lab, we used an
+depend on what data structure it uses under the hood. For this lab, we used a
 list as the underlying data structure, which means the runtime for the
 `search()` method is O(n), and the runtime for all of the other methods is O(1).
 
