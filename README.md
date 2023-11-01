@@ -74,24 +74,6 @@ depend on what data structure it uses under the hood. For this lab, we used a
 list as the underlying data structure, which means the runtime for the
 `search()` method is O(n), and the runtime for all of the other methods is O(1).
 
-While our implementation is efficient in terms of time complexity, we have to
-consider space complexity as well. One of the characteristics of an `list` is
-that each of the elements can be accessed directly using the `[]` operator. In
-order for this to work, Python stores all the elements that need to be stored
- in a continuous block of memory. If we're trying to add an element and we're out
- of memory where the
-list is located, Python will resize and relocate the continuous block to a bigger
-continuous block of memory. This is expensive
-in terms of memory, which means using a list as our underlying data structure
-is not optimal from the perspective of space complexity.
-
-Given that a `Stack` only uses `push` and `pop` methods, we don't need to use an
-underlying data structure that allows direct access to all of the elements. A
-better choice is a `LinkedList`, because it uses a Dictionary as _its_ underlying data
-structure and Dictionaries do not need to be stored in a continuous block of memory.
-The `LinkedList` is the next data structure we'll learn about. Before we get to
-that, however, let's get a little practice using `Stack`s.
-
 ***
 
 ## Resources
